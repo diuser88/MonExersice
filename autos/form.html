@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>420-219-SF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+      i { margin-right: 10px; }
+	  .navbar-inner h1 { color: white;  }
+	  body { margin-top: 30px; }
+	  .span1, .span2, .span3, .span4, .span5, .span6, 
+	  .span7, .span8, .span9, .span10,.span11,.span12 { background-color: #ddd; border-radius: 5px; }
+      .masquer { display: none; }
+    </style>
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <span class="label label-info">420-219-SF</span><h1>D&eacute;veloppement multimédia</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <h1>Choisissez votre v&eacute;hicule</h1>
+          <div class="col-md-9">
+            <form method="GET" action="selecteurAuto.php">
+              <div class="form-group">
+                <label for="modele">Mod&egrave;le</label>
+                <select class="form-control" id="modele" name="modele">
+                  <option value="chevrolet">Chevrolet Spark</option>
+                  <option value="honda">Honda Fit</option>
+                  <option value="mazda">Mazda 3</option>
+                  <option value="mercedes">Mercedes AMG</option>
+                  <option value="ford">Mustang GT</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="couleur">Couleur</label>
+                <select class="form-control" id="couleur" name="couleur">
+                  <option value="N">Noir</option>
+                  <option value="B">Blanc</option>
+                  <option value="R">Rouge</option>
+                  <option value="G">Gris</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-large btn-primary"><i class="glyphicon glyphicon-picture"></i>Voir le v&eacute;hicule</button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <hr/>
+          <em>Ce formulaire soumet en GET au script PHP <strong>selecteurAuto.php</strong></em>
+        </div>
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script>
+	</script>
+  </body>
+</html>
