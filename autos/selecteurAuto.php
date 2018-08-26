@@ -65,7 +65,7 @@
     <div class="container">
         <div class="row">
           <h1>Voici le véhicule que vous avez s&eacute;lectionné:</h1>
-          <img src="<?= $sort . $couleur?>.png" height="439"/><br/>
+          <img src="images/<?= $sort . $couleur?>.png" height="439"/><br/>
           <h3>Mod&egrave;le: <?= $modele   ?></h3>
         </div>
         <div class="row">
